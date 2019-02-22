@@ -15,7 +15,8 @@ $(document).ready(function(){
     var popup = parseInt($("input:radio[name=Q5]:checked").val());
     var array = parseInt($("input:radio[name=Q6]:checked").val());
     var display =parseInt((language + logic + method + constant + popup + array)/60*100);
-    $("#results").text("your score is :"+" "+display+"%");
+    var name=$("input#firstName").val();
+    $("#results").text(name+" "+"your score is :"+" "+display+"%");
   });
   $("#start").click(function(){
     $("#quiz").slideToggle();
