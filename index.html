@@ -10,16 +10,17 @@
   </head>
   <body>
       <div class="container">
-        <h1 class="text-info">Computer Test</h1>
+        <h1 class="text-info">Quiz Board</h1>
       <center>
         <form id="name">
-          <p id="medium" class="text-muted col-md-12">enter your name to proceed</p>
+          <p id="medium" class="text-muted col-md-12">enter your name</p>
           <input type="text" id="firstName" class="form-control col-9" name="" value="" placeholder="Your Name" autofocus required><br>
+          <p id="medium" class="text-muted col-md-12">enter School Name</p>
           <input type="text" id="schoolName" class="form-control col-9" name="" value="" placeholder="Your School Name" required><br>
-          <button type="submit" class="btn btn-info" name="button">Proceed</button>
+          <button type="submit" class="btn btn-info" onclick="set()" name="button">Proceed</button>
         </form>
         <div id="begin">
-          <p id="seen" class="text-muted col-md-8">How well do you know Javascript?</p>
+          <p id="seen" class="text-muted col-md-8"> <span id="person"></span> how well do you know Javascript?<span id="school"></span> wishes to test your prowess in javascript</p>
           <p class="holder">
             <button type="button" id="start" class="btn btn-success" name="button">Start Test</button>
           </p>
@@ -49,17 +50,20 @@
             <input type="radio" name="Q4" value="0">var <br>
             <!--Question 5-->
             <label for="Q5">Which one is <strong>NOT</strong> used to show a pop-up box?</label><br>
-            <input type="radio" name="Q5" value="0">Alert()<br>
+            <input type="radio" name="Q5" value="0" required>Alert()<br>
             <input type="radio" name="Q5" value="10">Console.log() <br>
             <!--Question 6-->
             <label for="Q6">Which one adds an element at the end of an array?</label><br>
-            <input type="radio" name="Q6" value="10">.push()<br>
+            <input type="radio" name="Q6" value="10" required>.push()<br>
             <input type="radio" name="Q6" value="0">.pop() <br>
             <button type="submit" class="btn btn-info" name="button">Submit</button>
           </form>
           <div id="results"></div>
+          <div id="answers">
+
+          </div>
         </div>
-    </div>
+    </div>required
   </div>
 
     <script   src="https://code.jquery.com/jquery-3.3.1.js"></script>
