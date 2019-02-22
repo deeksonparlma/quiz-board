@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="css/style.css">
     <meta charset="utf-8">
     <title></title>
@@ -11,8 +13,9 @@
         <h1 class="text-info">Computer Test</h1>
       <center>
         <form id="name">
-          <p class="text-muted col-md-8">enter your name to proceed</p>
-          <input type="text" id="firstName" class="form-control" name="" value="" placeholder="Your Name" autofocus required><br>
+          <p id="medium" class="text-muted col-md-12">enter your name to proceed</p>
+          <input type="text" id="firstName" class="form-control col-9" name="" value="" placeholder="Your Name" autofocus required><br>
+          <input type="text" id="schoolName" class="form-control col-9" name="" value="" placeholder="Your School Name" required><br>
           <button type="submit" class="btn btn-info" name="button">Proceed</button>
         </form>
         <div id="begin">
@@ -58,6 +61,7 @@
         </div>
     </div>
   </div>
+
     <script   src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="js/scripts.js">
     </script>
