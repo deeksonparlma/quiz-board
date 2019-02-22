@@ -10,4 +10,7 @@ $(document).ready(function(){
     var display =parseInt((language + logic + method + constant + popup + array)/60*100);
     $("#results").text("your score is :"+" "+display+"%");
   });
+  $("#start").click(function(){
+    $("#quiz").slideToggle();
+  });
 });
