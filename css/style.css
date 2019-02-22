@@ -1,4 +1,28 @@
-#top{
-  height: 400px;
-  background-image: url("https://www.xda-developers.com/files/2018/10/Launcher-Wallpaper-3.png");
+body{
+  background-image: url("https://s2.best-wallpaper.net/wallpaper/3840x1200/1808/Purple-style-texture-background-abstract_3840x1200.jpg");
+}
+#quiz{
+  display: none;
+  padding: 10px 10px 10px 20px;
+}
+#questions {
+  background-color: #DFFDFB;
+  width: auto;
+  opacity: 0.6;
+}
+center{
+  padding-top: 200px;
+}
+h1 {
+  color:#E7FFA1;
+  box-shadow: 1px 1px 2px 1px #DDFFF2;
+}
+#firstName{
+  width: 200px;
+}
+#begin{
+  display: none;
+}
+h1{
+  font-size: 21px;
 }
