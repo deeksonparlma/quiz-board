@@ -7,17 +7,24 @@
     <title></title>
   </head>
   <body>
-    <div id="top">
       <div class="container">
-        <h4 class="text-warning">Computer Test</h4>
-        <p id="seen" class="text-muted">How well do you know Javascript?</p>
-        <p class="holder">
-          <button type="button" id="start" class="btn btn-success" name="button">Start Test</button>
-        </p>
+        <h1>Computer Test</h1>
+      <center>
+        <form id="name">
+          <p class="text-muted col-md-8">enter your name to proceed</p>
+          <input type="text" id="firstName" class="form-control" name="" value="" placeholder="Your Name" autofocus required><br>
+          <button type="submit" class="btn btn-info" name="button">Proceed</button>
+        </form>
+        <div id="begin">
+          <p id="seen" class="text-muted col-md-8">How well do you know Javascript?</p>
+          <p class="holder">
+            <button type="button" id="start" class="btn btn-success" name="button">Start Test</button>
+          </p>
+        </div>
+        </center>
       </div>
-      </div>
+  <div class="container">
     <div id="questions">
-      <div class="container">
         <div class="form-group">
           <form id="quiz">
             <h4>javascript Test</h4>
