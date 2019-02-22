@@ -13,4 +13,9 @@ $(document).ready(function(){
   $("#start").click(function(){
     $("#quiz").slideToggle();
   });
+  $("#name").submit(function(){
+    event.preventDefault();
+    $("#name").hide();
+    $("#begin").slideDown();
+  });
 });
