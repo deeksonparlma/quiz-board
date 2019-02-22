@@ -8,7 +8,13 @@
   </head>
   <body>
     <div id="top">
-
+      <div class="container">
+        <h4 class="text-warning">Computer Test</h4>
+        <p id="seen" class="text-muted">How well do you know Javascript?</p>
+        <p class="holder">
+          <button type="button" id="start" class="btn btn-success" name="button">Start Test</button>
+        </p>
+      </div>
       </div>
     <div id="questions">
       <div class="container">
@@ -25,11 +31,11 @@
             <input type="radio" name="Q2" value="10">|| <br>
             <!--Question 3-->
             <label for="Q3">What does mutator methods do to an array?</label><br>
-            <input type="radio" name="Q3" value="10">Modify Array<br>
+            <input type="radio" name="Q3" value="10" required>Modify Array<br>
             <input type="radio" name="Q3" value="0">Don't modify <br>
             <!--Question 4-->
             <label for="Q4">How do you set a constant in Javascript?</label><br>
-            <input type="radio" name="Q4" value="10">Let <br>
+            <input type="radio" name="Q4" value="10" required>Let <br>
             <input type="radio" name="Q4" value="0">var <br>
             <!--Question 5-->
             <label for="Q5">Which one is <strong>NOT</strong> used to show a pop-up box?</label><br>
