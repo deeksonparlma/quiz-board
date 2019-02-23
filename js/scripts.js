@@ -17,6 +17,7 @@ $(document).ready(function(){
     var display =parseInt((language + logic + method + constant + popup + array)/60*100);
     var name=$("input#firstName").val();
     $("#hide").slideDown();
+    $("input").prop("disabled", true);
     $("#results").text(name+" "+"your score is :"+" "+display+"%");
   });
   $("#start").click(function(){
