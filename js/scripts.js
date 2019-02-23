@@ -30,6 +30,6 @@ $(document).ready(function(){
   $("#seeResults").click(function(){
     $("#begin").hide();
     $("#questions").hide();
-    $("#answers").slideDown();
+    $("#answers").show();
   });
 });
