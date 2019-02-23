@@ -27,4 +27,7 @@ $(document).ready(function(){
     $("#name").hide();
     $("#begin").slideDown();
   });
+  $("#seeResults").click(function(){
+    $("#answers").slideDown();
+  });
 });
