@@ -28,6 +28,7 @@ $(document).ready(function(){
     $("#begin").slideDown();
   });
   $("#seeResults").click(function(){
+    $("#begin").hide();
     $("#questions").hide();
     $("#answers").slideDown();
   });
