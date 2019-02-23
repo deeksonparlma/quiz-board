@@ -12,7 +12,7 @@
   <body>
       <div class="container">
         <h1 class="text-info">Quiz - Board</h1>
-      <center>
+      <center id="t">
         <form id="name">
           <p id="medium" class="text-muted col-md-12">enter your name</p>
           <input type="text" id="firstName" class="form-control col-9" name="" value="" placeholder="Your Name" autofocus required><br>
@@ -60,8 +60,11 @@
             <button type="submit" class="btn btn-info" name="button">Submit</button>
           </form>
           <center>
-          <div id="results"></div>
+          <div id="hide">
+            <div id="results"></div>
+          </div>
         </center>
+
           <div id="answers">
 
           </div>
