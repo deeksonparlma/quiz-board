@@ -10,7 +10,7 @@ body{
   width: auto;
   opacity: 0.6;
 }
-center{
+#tt{
   padding-top: 100px;
 }
 h1 {
@@ -36,7 +36,8 @@ h1{
 #seen{
   font-size: 25px;
 }
-#results{
-  height: 100px;
+#hide{
+  display: none;
+  height: 70px;
   font-size: 20px;
 }
