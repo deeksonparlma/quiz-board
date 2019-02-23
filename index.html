@@ -12,7 +12,7 @@
   <body>
       <div class="container">
         <h1 class="text-info">Quiz - Board</h1>
-      <center>
+      <center id="tt">
         <form id="name">
           <p id="medium" class="text-muted col-md-12">enter your name</p>
           <input type="text" id="firstName" class="form-control col-9" name="" value="" placeholder="Your Name" autofocus required><br>
@@ -59,15 +59,62 @@
             <input type="radio" name="Q6" value="0">.pop() <br>
             <button type="submit" class="btn btn-info" name="button">Submit</button>
           </form>
+        </div>
+      </div>
           <center>
-          <div id="results"></div>
+          <div id="hide">
+            <div id="results"></div>
+            <button type="button" id="seeResults" class="btn btn-success" name="button">See Answers</button>
+          </div>
         </center>
-          <div id="answers">
 
+          <div id="answers">
+            <div class="form-group">
+              <form id=>
+                <h4>Answers</h4>
+                <!--Question 1-->
+                <label for="Q1">which is a scripting language <strong>(5mks)</strong></label><br>
+                <input type="radio" name="Q1" value="0" disabled>Jquery <br>
+                <p class="text-success">
+                  <input type="radio" name="Q1" value="10" checked>javascript
+                </p>
+                <!--Question 2-->
+                <label for="Q2">Which of the following is a logical operator</label><br>
+                <input type="radio" name="Q2" value="0" disabled>=== <br>
+                <p class="text-success">
+                <input type="radio" name="Q2" value="10" checked>||
+              </p>
+                <!--Question 3-->
+                <label for="Q3">What does mutator methods do to an array?</label><br>
+                <p class="text-success">
+                <input type="radio" name="Q3" value="10" checked>Modify Array
+              </p>
+                <input type="radio" name="Q3" value="0" disabled>Don't modify <br>
+                <!--Question 4-->
+                <label for="Q4">How do you set a constant in Javascript?</label><br>
+                <p class="text-success">
+                <input type="radio" name="Q4" value="10" checked>Let
+              </p>
+                <input type="radio" name="Q4" value="0" disabled>var <br>
+                <!--Question 5-->
+                <label for="Q5">Which one is <strong>NOT</strong> used to show a pop-up box?</label><br>
+                <input type="radio" name="Q5" value="0" disabled>Alert()<br>
+                <p class="text-success">
+                <input type="radio" name="Q5" value="10" checked>Console.log()
+              </p>
+                <!--Question 6-->
+                <label for="Q6">Which one adds an element at the end of an array?</label><br>
+                <p class="text-success">
+                <input type="radio" name="Q6" value="10" checked>.push()
+              </p>
+                <input type="radio" name="Q6" value="0" disabled>.pop() <br>
+
+              </form>
+              <center>
           </div>
         </div>
     </div>
-  </div>
+
 
     <script   src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="js/scripts.js">
